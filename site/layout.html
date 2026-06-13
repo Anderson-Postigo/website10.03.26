@@ -6,24 +6,23 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Web, Site">
     <meta name="author" content="Anderson Marcos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contrução de Website</title>
+    <title>Construção de Website</title>
     <link rel="stylesheet" href="./css/style.css">   
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> 
 </head>
 <body>
     <header class="flex-container" id="topo">
-        <img src="imagem/logo_ub.png" alt="logo universidade brasil azul com logo transparente">
+        <img id="logo" src="imagem/logo_ub.png" alt="Logotipo da Universidade Brasil">
     </header>
-    <nav class="flex-container" >
-        
-        <label for="bt_menu"> <img src="./imagem/menu.png" alt="Icone de manu"> </label>
-        <input type="checkbox" name="bt_menu" id="bt_menu"> 
+    <nav class="flex-container" aria-label="Navegação principal">
+        <input type="checkbox" name="bt_menu" id="bt_menu">
+        <label for="bt_menu" aria-label="Abrir menu" title="Abrir menu"> <img src="./imagem/menu.png" alt="Ícone de menu"> </label>
 
         <ul id="menu">
-            <li><a href="index.html">inicio</a></li>
-            <li><a href="comentarios.html">comentarios</a></li>
-            <li><a href="layout.html">layout</a></li>
-            <li><a href="#">listas</a> 
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="comentarios.html">Comentarios</a></li>
+            <li><a href="layout.html">Layout</a></li>
+            <li><a href="#">Listas</a> 
                 <ul>          
                     <li><a href="ol.html">Listas Ordenadas</a></li>
                     <li><a href="ul.html">Listas Não ordenadas</a></li>
@@ -54,8 +53,7 @@
 
     </main>
     <footer class="flex-container" id="rodape">
-        <p>Todos os direitos reservados &copy; 2026</p>
-
+        <p>&copy; 2026 - Universidade Brasil. Todos os direitos reservados.</p>        
     </footer>
 </body>
 </html>
